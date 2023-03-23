@@ -1,0 +1,29 @@
+* {
+    user-select: none !important;
+    font-family: cursive !important;
+    font-weight: 900 !important;
+    font-size: 4mm !important;
+}
+
+#sudoku-grid-container {
+    margin: 0 0 0 3cm;
+}
+
+td {
+    padding: 0 2mm 0 2mm;
+    border: 1mm solid rgb(122, 122, 122);
+    border-radius: 2mm;
+    color: rgb(0, 0, 0);
+}
+
+.firstRowBttns {
+    margin: 0 0 0 15mm;
+}
+
+.secondRowBttns {
+    margin: 0 0 0 3cm;
+}
+
+#solve-bttn {
+    visibility: hidden;
+}
